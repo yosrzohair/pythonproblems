@@ -7,7 +7,7 @@ def list_function(user_list):
     element= user_list[2]
     user_list.remove(element)
     user_list.insert(4,element)
-    list.insert(len(list), element)
+    user_list.insert(len(user_list )-1, element)
     print(user_list)
 
 user_input = input("Enter the list items separated by spaces: ")
